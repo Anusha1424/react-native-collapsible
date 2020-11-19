@@ -6,6 +6,7 @@ var ViewPropTypes = {
   style: _propTypes.default.oneOfType([
     _propTypes.default.object,
     _propTypes.default.array,
+    _propTypes.default.number,
   ]),
 };
 exports.ViewPropTypes = ViewPropTypes;
